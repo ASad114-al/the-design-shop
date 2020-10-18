@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+nav{
+    display: flex;
+    padding-top: 2%;
+    margin-bottom: 5%;
+    margin: 0 auto;
+    width : 80%;
+}
+nav h1{
+    width: 25%;
+    color: black;
+    padding-left: 2%;
+    font-size: 1.4rem;
+    font-family: 'Karla', sans-serif;
+}
+nav ul{
+   
+  
+      float: left;
+      margin-left: 30%;
+      width:69%;
+  
+}
+nav li{
+
+    float: right;
+   padding-left: 5%;
+ 
+    font-size: .8rem;
+    list-style-type:none ;
+ 
+    padding-bottom: 9%;
+
+}
+nav a{
+    color: #323A45;
+    text-decoration: none;
+     font-family: 'Karla', sans-serif; 
+}
+nav a:hover{
+    color: #848484;
+}
+nav h1:hover{
+    color: #848484;
+}
+.profil {
+    width: 80%;
+    margin: 0 auto;
+}
+.profil-img img
+{
+    width: 95%;
+    padding-left: 2%;
+}
+.profil-img img:hover
+{
+    opacity: 0.2;
+}
+.profil-text{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    /* font-family: 'Karla', sans-serif; */
+}
+.profil-text p{
+    color: #323A45;
+    font-family: 'Karla', sans-serif;
+}
+.warp { 
+    color: #848484;
+    font-family: 'Karla', sans-serif;
+     padding-left: 2.5%;
+  padding-bottom: 2%;
+}
+
+.color 
+{
+    color: #848484;
+    font-family: 'Karla', sans-serif;
+    display: inline-block;
+
+}
+
+
+
+.bk-gr-img
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    width: 100%;
+
+}
+.bk-gr-img img
+{
+    width: 100%;
+    padding-right: 10%;
+}
+.bk-gr-img figcaption{
+    display: flex;
+    justify-content: space-between;
+}
+.bk-gr-img img:hover
+{
+    opacity: 0.2;
+}
+
+footer
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    margin: 0 auto;
+    width: 70%;
+ 
+    margin-top: 5%;
+   
+}
+
+
+
+#fot-h2
+{
+    margin-left: -15%;
+    font-size :13px;
+}
+
+#warp-fot
+{
+   
+    margin-left: -15%;
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+}
+#warp-fot  p:nth-of-type(3)
+{
+    
+    padding-top: 15%;
+}
+
+
+#footer-h2
+{
+    
+    margin-left: 40%;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+
+#warp-footer
+{
+    
+    margin-left: 40%;
+    font-size: 9px;
+    font-family: 'Karla', sans-serif;
+}
+#warp-footer a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

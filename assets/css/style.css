@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
+
+
+
 nav{
     display: flex;
     padding-top: 2%;
@@ -164,26 +167,67 @@ footer
     color: black;
     font-size: 12px;
 }
+#nav 
+    {
+        overflow: hidden;
+        margin-top: -100%;
+    }
 
 
 
+@media (max-width: 600px)
+{
+    figure{
+        margin: 8px;
+        grid-template-columns: repeat( 1 , 1fr );                   
+    }
+ .media-class, .profil-img {
+        grid-template-columns: repeat( 1 , 1fr );
+    }
+    /* .footer{
+        grid-template-columns: repeat( 1 , 1fr );
+    } */
 
+    nav ul{
+        display: none;
+    }
+    input[type=checkbox]:checked + ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background: rgba(0,0,0, .9);
+        color: white;
+        right: 0;
+        width: 70%;
+        top: 74px;
+        bottom: 0;
+    }
+    nav li{
+        padding-left: 30px ;
+        padding-top: 30px ;
+        padding-bottom: 0;
+    }
+    nav a{
+        color: white;
+    }
+    .warp-nav{
+        display: flex;
+        height: 23px;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .warp-nav div{
+        width: 30px;
+        height: 4px;
+        background: black;
+        margin-left: 900%;
+        
+    }
 
+    #nav 
+    {
+        overflow: hidden;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
